@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="img/me 1 remove.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Maged Emel Sobhy</title>
+</head>
+<body>
+    <div id="continer">
+        <header>
+            <h1>Maged Emel Sobhy</h1>
+            <nav>
+                <ul id="navbar">
+                    <li>
+                        <a href="#Profile" id="navclick">
+                            Profile
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#icons" id="navclick">
+                            Services
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#projectSection"  id="navclick">
+                            Projects
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#socialmedia"  id="navclick">
+                            Contact Me
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#leavemassage"  id="navclick">
+                            Leave Massege
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main id="Profile">
+            <img src="img/me 1 remove.png" alt="">
+            <h2 id="services">Web Developer</h2>
+        </main>
+        <section id="icons"> 
+            <h2>I Have Three Skils : </h2>
+            <div class="icons">
+                <div class="html">
+                    <i class="fa-brands fa-html5"></i>
+                    <h3>HTML</h3>
+                    <p>HTML is the standard markup language for creating web pages and web applications.
+                    </p>
+                </div>
+                <div class="css">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                    <p>CSS is used to style and layout web pages, controlling colors, fonts, and positioning.
+                    </p>
+                </div>
+                <div class="js">
+                    <i class="fa-brands fa-js"></i>
+                    <h3>JAVASCRIPT</h3>
+                    <p>JavaScript is a versatile programming language for creating dynamic and interactive web content and applications.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="projects" id="projectSection">
+            <h2>My Projects</h2>
+            <div class="project1">
+                <h3>Web Site To test</h3>
+            </div>
+            <div class="project2">
+                <h3>Profile Web Site</h3>
+            </div>
+            <div class="project3">
+                <h23>Hover to Show my Contact </h23>
+            </div>
+        </section>
+        <section id="socialmedia"> 
+            <h2>Social Media</h2>
+                    <a href="https://www.linkedin.com/in/maged-emel-sobhy-a5b50a265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                    <a href="https://github.com/MagedEmel" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/maged.emel.5" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="https://x.com/MagedEmel_99" target="_blank">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCXNi-3BINuijrRHYnKxFAGg" target="_blank">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+        </section>
+        <footer id="leavemassage">
+            <form id="form" action="">
+                <input type="text" name="" id="username" placeholder="Enter Name Here" > <br> <br>
+                <input type="text" name="" id="useremail" placeholder="xx@gmail.com" onkeyup="emailCheak()">
+                <br> <br>
+                <span id="result"></span> <br><br>
+                <textarea id="Massege" placeholder="Leave Massege in Here"></textarea> <br> <br>
+                <input type="submit" id="senddata" onclick="emailCheak()" value="Send Your Massege">
+                <input type="reset" id="reset" onclick="emailTextReset()">
+            </form>
+            <div class="imgmasge">
+                <img src="img/me remove 3.png">
+            </div>
+        </footer>
+    <script src="script.js"></script>
+</body>
+</html>
