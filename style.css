@@ -10,7 +10,8 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        position: 
+        position: sticky;
+        top:0;
         background-color: white;
         text-transform: uppercase;
     }
@@ -161,7 +162,7 @@
         padding-bottom: 30px;
         transition: all 0.5s;
     }
-    .projects h1{
+    .projects h2{
         position: absolute;
         top : 210vh;
         font-size: 30px;
@@ -169,7 +170,7 @@
         width: 300px;
         text-align: center;
     }
-    .projects h1:hover{
+    .projects h2:hover{
         letter-spacing: 2.5px;
         color : white;
         border: 3px solid black;
@@ -510,7 +511,7 @@
         padding-bottom: 30px;
         transition: all 0.5s;
     }
-    .projects h1{
+    .projects h2{
         position: absolute;
         top : 210vh;
         font-size: 27px;
@@ -518,7 +519,7 @@
         width: 300px;
         text-align: center;
     }
-    .projects h1:hover{
+    .projects h2:hover{
         letter-spacing: 2.5px;
         color : white;
         border: 3px solid black;
@@ -869,7 +870,7 @@
         text-align: center;
         font-size: 15px;
     }
-    .projects h1{
+    .projects h2{
         position: absolute;
         top : 210vh;
         font-size: 27px;
@@ -877,7 +878,7 @@
         width: 300px;
         text-align: center;
     }
-    .projects h1:hover{
+    .projects h2:hover{
         letter-spacing: 2.5px;
         color : white;
         border: 3px solid black;
@@ -1223,7 +1224,7 @@
         padding-bottom: 30px;
         transition: all 0.5s;
     }
-    .projects h1{
+    .projects h2{
         position: absolute;
         top : 210vh;
         font-size: 27px;
@@ -1235,7 +1236,7 @@
         text-align: center;
         font-size: 16px;
     }
-    .projects h1:hover{
+    .projects h2:hover{
         letter-spacing: 2.5px;
         color : white;
         border: 3px solid black;
